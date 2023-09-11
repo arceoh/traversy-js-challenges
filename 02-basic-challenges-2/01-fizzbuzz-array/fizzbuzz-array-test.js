@@ -1,21 +1,21 @@
-const fizzBuzzArray = require('./fizzbuzz-array');
+const fizzBuzzArray = require("./fizzbuzz-array");
 
-test('FizzBuzz Array', () => {
+test("FizzBuzz Array", () => {
   expect(fizzBuzzArray(15)).toEqual([
     1,
     2,
-    'Fizz',
+    "Fizz",
     4,
-    'Buzz',
-    'Fizz',
+    "Buzz",
+    "Fizz",
     7,
     8,
-    'Fizz',
-    'Buzz',
+    "Fizz",
+    "Buzz",
     11,
-    'Fizz',
+    "Fizz",
     13,
     14,
-    'FizzBuzz',
+    "FizzBuzz",
   ]);
 });
