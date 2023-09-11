@@ -1,5 +1,11 @@
 function findMissingNumber(arr) {
-  const sorted = arr.sort((a, b) => a - b);
+  if (arr.length === 0) return 1;
+
+  const copy = [...arr];
+  const sorted = copy.sort((a, b) => a - b);
+
+  console.log(sorted);
+
   let missing = -1;
 
   for (let i = 0; i < sorted.length - 1; i++) {
