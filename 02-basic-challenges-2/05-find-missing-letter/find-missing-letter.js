@@ -1,7 +1,6 @@
 function findMissingLetter(arr) {
   if (arr.length === 0) return "";
   const sorted = arr.sort((a, b) => a - b);
-  console.log(sorted);
   let missing = null;
   let current, next;
   for (let i = 0; i < sorted.length - 1; i++) {
