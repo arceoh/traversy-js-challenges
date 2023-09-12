@@ -1,4 +1,4 @@
-const factorial = require('./factorial');
+const factorial = require("./factorial");
 
 const result = factorial(5);
 
