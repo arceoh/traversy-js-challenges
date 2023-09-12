@@ -6,7 +6,7 @@ function calculateTotalSalesWithTax(items, tax) {
   const taxes = subtotal * (tax / 100);
   const total = subtotal + taxes;
 
-  return total;
+  return total.toFixed(2);
 }
 
 module.exports = calculateTotalSalesWithTax;
