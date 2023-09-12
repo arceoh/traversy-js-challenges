@@ -82,7 +82,7 @@ So, the final result is 15, which is the sum of all the numbers in the original 
 ### Test Cases
 
 ```js
-test('Calculate Sum of Array Using Recursion', () => {
+test("Calculate Sum of Array Using Recursion", () => {
   expect(arraySum([1, 2, 3, 4, 5])).toEqual(15);
   expect(arraySum([-1, -2, -3, -4, -5])).toEqual(-15);
   expect(arraySum([])).toEqual(0);
