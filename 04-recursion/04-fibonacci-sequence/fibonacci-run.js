@@ -1,5 +1,6 @@
-const fibonacci = require('./fibonacci');
+const fibonacci = require("./fibonacci");
 
-const result = fibonacci(8);
+const runTimes = 22;
+const result = fibonacci(runTimes);
 
-console.log(result);
+console.log(runTimes, ": ", result);
