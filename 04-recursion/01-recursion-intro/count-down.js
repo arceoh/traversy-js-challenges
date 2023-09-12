@@ -1,7 +1,6 @@
 function countDown(num) {
   // base case
   if (num <= 0) {
-    console.log("All done!");
     return "All done!";
   }
 
