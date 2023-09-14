@@ -19,10 +19,10 @@ function findPower(base, exponent) {
   }
 }
 
-console.time('Find Power 1');
+console.time("Find Power 1");
 findPower(2, 100);
-console.timeEnd('Find Power 1');
+console.timeEnd("Find Power 1");
 
-console.time('Find Power 2');
-findPower(2, 1000000000);
-console.timeEnd('Find Power 2');
+console.time("Find Power 2");
+findPower(2, 10000000);
+console.timeEnd("Find Power 2");
